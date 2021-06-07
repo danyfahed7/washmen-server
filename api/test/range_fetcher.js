@@ -6,8 +6,6 @@ var logger = require('./logger/logger')
 const hostname = 'http://localhost';
 const server_port = 3080;
 
-const logger = new Logger();
-
 describe ('Fetching Partners', function() {
     describe ('Default Location', function() {
         it('Partners Range Fetcher content at 50 KM', function(done) {
