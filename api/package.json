@@ -29,7 +29,10 @@
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
-  },
-  "type":"module"
+    "webpack-cli": "^3.3.12",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "great-circle-distance": "^1.0.2",
+    "mocha": "^8.4.0"
+  }
 }

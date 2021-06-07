@@ -1,5 +1,5 @@
-import { expect } from 'chai';
-import request from 'request';
+var expect  = require('chai').expect;
+var request = require('request');
 
 const hostname = 'http://localhost';
 const server_port = 3080;
