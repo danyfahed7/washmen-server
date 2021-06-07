@@ -1,7 +1,7 @@
 var expect  = require('chai').expect;
 var request = require('request');
 
-var logger = require('./logger/logger')
+var logger = require('../logger/logger')
 
 const hostname = 'http://localhost';
 const server_port = 3080;
