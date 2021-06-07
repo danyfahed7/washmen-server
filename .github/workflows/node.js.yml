@@ -33,7 +33,7 @@ jobs:
         npm run build --if-present
     - run: |
         cd api/
-        npm run test
+        npm test
     - name: Login to Docker Hub
       run: docker login --username "${{ secrets.DOCKER_USERNAME }}" --password "${{ secrets.DOCKER_PWD }}"
     - name: Build the Docker Image
